@@ -1,0 +1,120 @@
+:root{
+    --white: rgb(249, 250, 250);
+    --gray: rgb(6, 11, 14);
+    --yellow: rgb(247, 250, 26);    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gray);
+    color: var(--white);
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+header .container i{
+    margin-left: 20px;
+}
+
+header .logo{
+    height: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--white);
+    margin: 0 20px;
+}
+
+header nav a:hover{
+    color: var(--yellow);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;  
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/WSBK2.png');
+    height: 500px;
+    background-size: cover;
+    padding: 40px;
+}
+
+main .tittle{
+    font-style: italic;
+}
+
+main .description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main .featuring{
+    width: 60%;
+}
+
+main .freetrial{
+    margin-left: 50px;
+    width: 60%;
+}
+
+main .trialbutton{
+    margin-top: 20px;
+    background-color: var(--yellow);
+    border: none;
+    color: var(--gray);
+    font-family: "Arial Black";
+    padding: 9px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.trialbutton:hover{
+    background-color: rgb(222, 229, 23);
+    color: black;
+}
+
+main .detailsbutton{
+    margin-top: 20px;
+    background-color: var(--gray);
+    color: var(--white);
+    border-width: 2px;
+    border-color: var(--white);
+    font-family: "Arial Black";
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.detailsbutton:hover{
+    background-color: var(--white);
+    color: var(--gray)
+}
+
+.sportsbox{
+    height: 100%;
+    width: 100%;
+    display: block;
+}

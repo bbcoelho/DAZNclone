@@ -1,0 +1,5 @@
+- Fonte certa
+- DIVs para navbar
+- Gradiente imagem
+- Borda do cabeçalho
+- Melhorar resposividade
